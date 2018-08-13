@@ -12,7 +12,7 @@ The modeling pipeline is as follows
 5. Use the final output embeddings of CNN in a KNN model to make prediction
 
 An illustration of the modeling pipeline
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/5643444/233255889-53a74850-cc7b-4c20-a437-688cb02fa36d.png)
 
 ### Libraries
 - Python 2.7
