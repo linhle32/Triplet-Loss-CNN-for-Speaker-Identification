@@ -8,8 +8,8 @@ The modeling pipeline is as follows
 1. Load speeches data
 2. Randomly sample multiple one-second segments from each speech file, each has its label being the speaker ID.
 3. Transform the segments into melspectrograms
-4. Use melspectrograms as image, train a CNN using Triplet loss objective
-5. Use the final output embeddings of CNN in a KNN model to make prediction
+4. Use melspectrograms as image then train a CNN using Triplet loss objective
+5. Use the final output embeddings of the trained CNN in a KNN model to make prediction
 
 An illustration of the modeling pipeline
 ![image](https://user-images.githubusercontent.com/5643444/233255889-53a74850-cc7b-4c20-a437-688cb02fa36d.png)
